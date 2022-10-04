@@ -1,15 +1,13 @@
-### Graphviz
-```graphviz
-digraph hierarchy {
-
-                nodesep=1.0 // increases the separation between nodes
-                
-                node [color=Red,fontname=Courier,shape=box] //All nodes will this shape and colour
-                edge [color=Blue, style=dashed] //All the lines look like this
-
-                Headteacher->{Deputy1 Deputy2 BusinessManager}
-                Deputy1->{Teacher1 Teacher2}
-                BusinessManager->ITManager
-                {rank=same;ITManager Teacher1 Teacher2}  // Put them on the same level
-}
-```
+| 任務  | 說明  | 需時(天) | 前置作業 |
+| :------------: |:---------------:| :-----:| :-----: |
+| 1 | 研擬計畫 | 1 | - |
+| 2 | 任務分配 | 4 | 1 |
+| 3 | 取得硬體 | 17 | 1 |
+| 4 | 程式開發 | 70 | 2 |
+| 5 | 安裝軟體 | 10 | 3 |
+| 6 | 程式測試 | 30 | 4 |
+| 7 | 撰寫使用手冊 | 25 | 5 |
+| 8 | 轉換檔案 | 20 | 5 |
+| 9 | 系統測試 | 25 | 6 |
+| 10 | 使用者訓練 | 20 | 7,8 |
+| 11 | 使用者測試 | 25 | 9,10 |
