@@ -56,5 +56,5 @@ gantt
 
 ***
 # CPM
-![path](path.jpg "path")
+![path](關鍵圖.jpg "path")
 ***
